@@ -48,7 +48,15 @@ body{
 .p-absolute.tags{
     position: absolute;
     bottom: 110px
+}
 
+.p-absolute.heart{
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    right: 0px;
+    padding:5px 15px;
+    font-size: 2em;
 }
 
 .sale{
