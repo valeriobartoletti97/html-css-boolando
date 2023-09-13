@@ -9,7 +9,7 @@
 :root {
 	--color-principal: #f77f2b;
 	--color-sale: #ff0000;
-	--color-tag: #008000;
+	--color-sustainable: #008000;
 	--color-header-font: #e4e3e1;
 }
 
@@ -41,6 +41,28 @@ body{
     justify-content: space-between;
 }
 
+.p-relative{
+    position: relative;
+}
+
+.p-absolute.tags{
+    position: absolute;
+    bottom: 110px
+
+}
+
+.sale{
+    background-color: var(--color-sale);
+}
+
+.sustainable{
+    background-color: var(--color-sustainable);
+}
+.tag{
+    color: var(--color-header-font);
+    padding: 3px;
+}
+
 a{
     text-decoration: none;
     color: var(--color-header-font);
@@ -52,6 +74,7 @@ header{
     background-color: var(--color-principal);
     width: 100%;
     padding: 20px 0px;
+    z-index: 1000;
 }
 
 .logo{
@@ -66,7 +89,7 @@ i{
 /* main */
 
 main{
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .card-wrapper{
     width: calc(100% / 3);
@@ -75,4 +98,8 @@ main{
 
 img{
     overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
 }
