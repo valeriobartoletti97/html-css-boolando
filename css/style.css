@@ -11,16 +11,17 @@
 	--color-sale: #ff0000;
 	--color-sustainable: #008000;
 	--color-header-font: #e4e3e1;
+    --color-brand: #77766e;
 }
 
 body{
     font-weight: 600;
 }
 
-.debug{
+/* .debug{
     border: 1px solid black;
 }
-
+ */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -47,7 +48,7 @@ body{
 
 .p-absolute.tags{
     position: absolute;
-    bottom: 110px
+    bottom: 160px
 }
 
 .p-absolute.heart{
@@ -57,18 +58,6 @@ body{
     right: 0px;
     padding:5px 15px;
     font-size: 2em;
-}
-
-.sale{
-    background-color: var(--color-sale);
-}
-
-.sustainable{
-    background-color: var(--color-sustainable);
-}
-.tag{
-    color: var(--color-header-font);
-    padding: 3px;
 }
 
 a{
@@ -100,8 +89,13 @@ main{
     padding-top: 150px;
 }
 .card-wrapper{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 20px);
     object-fit: contain;
+    padding-bottom: 50px;
+}
+
+main > .d-flex{
+    gap: 20px;
 }
 
 img{
@@ -110,4 +104,29 @@ img{
 
 h2{
     text-transform: uppercase;
+    font-size: 20px;
+}
+
+h3{
+    color: var(--color-brand);
+    font-size: 1em;
+}
+.sale{
+    background-color: var(--color-sale);
+}
+
+.sustainable{
+    background-color: var(--color-sustainable);
+}
+.tag{
+    color: var(--color-header-font);
+    padding: 3px;
+}
+
+.original.price{
+    text-decoration: line-through;
+}
+
+.final.price{
+    color: var(--color-sale);
 }
