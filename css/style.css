@@ -6,7 +6,22 @@
     box-sizing: border-box
 }
 
-.wrapper{
+:root {
+	--color-principal: #f77f2b;
+	--color-sale: #ff0000;
+	--color-tag: #008000;
+	--color-header-font: #e4e3e1;
+}
+
+body{
+    font-weight: 600;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.container{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -24,4 +39,26 @@
 
 .space-between{
     justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-header-font);
+    padding: 0 5px;
+}
+/* header */
+
+header{
+    background-color: var(--color-principal);
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+i{
+    color: var(--color-header-font);
+    padding: 0 5px;
 }
