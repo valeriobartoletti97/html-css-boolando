@@ -1,0 +1,27 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
