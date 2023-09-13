@@ -130,3 +130,12 @@ h3{
 .final.price{
     color: var(--color-sale);
 }
+
+.card-wrapper > img:hover{
+    cursor: pointer
+}
+
+.heart:hover{
+    cursor: pointer;
+    color: red;
+}
