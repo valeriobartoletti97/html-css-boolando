@@ -62,3 +62,17 @@ i{
     color: var(--color-header-font);
     padding: 0 5px;
 }
+
+/* main */
+
+main{
+    padding-top: 200px;
+}
+.card-wrapper{
+    width: calc(100% / 3);
+    object-fit: contain;
+}
+
+img{
+    overflow: hidden;
+}
