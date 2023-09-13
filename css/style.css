@@ -18,10 +18,6 @@ body{
     font-weight: 600;
 }
 
-/* .debug{
-    border: 1px solid black;
-}
- */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -36,6 +32,7 @@ body{
     flex-flow: row wrap;
     align-items: center;
     align-content: center;
+    flex-shrink: 0;
 }
 
 .space-between{
@@ -165,4 +162,27 @@ h5{
     padding-top: 10px;
     margin-right: 3px;
     font-size: 0.8em;
+}
+
+.u-image1, .u-image2, .u-image3, .u-image4,.u-image5, .u-image6{ 
+    display: none;
+}
+
+.image1:hover{
+      content: url(../img/1b.webp);
+}
+.image2:hover{
+    content: url(../img/2b.webp);
+}
+.image3:hover{
+    content: url(../img/3b.webp);
+}
+.image4:hover{
+    content: url(../img/4b.webp);
+}
+.image5:hover{
+    content: url(../img/5b.webp);
+}
+.image6:hover{
+    content: url(../img/6b.webp);
 }
