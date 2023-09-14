@@ -30,8 +30,8 @@ body{
 .d-flex{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
     flex-shrink: 0;
 }
 
@@ -89,6 +89,7 @@ main{
     width: calc((100% / 3) - 20px);
     object-fit: contain;
     padding-bottom: 50px;
+    min-width: 350px;
 }
 
 main > .d-flex{
@@ -169,7 +170,7 @@ h5{
 }
 
 .image1:hover{
-      content: url(../img/1b.webp);
+    content: url(../img/1b.webp);
 }
 .image2:hover{
     content: url(../img/2b.webp);
